@@ -58,7 +58,7 @@ background-image: linear-gradient(
     rgb(0,0,0,0.5)
 )
 ,url(../background/background-description.jpeg);
-
+background-attachment: fixed;
 display: flex;
 justify-content: center;
 align-items: center;
