@@ -83,7 +83,7 @@ align-items: center;
 width: 50%;
 height: 650px;
 color: #ffffff;
-background-color: rgba(0, 0, 0, .03);
+background-color: rgba(0, 0, 0, 0);
 }
 .h2{
     display: inline-block;
@@ -105,10 +105,15 @@ background-color: rgba(0, 0, 0, .03);
 .card-list ul li{
  margin-top: 0.8rem;
  list-style: none;
+ background-color: transparent;
 }
-.card-list ul li a{
-    text-decoration: none;
-    color: #ffffff;
+.pregunta{
+  color:white;
+background-color: transparent;
+border: none;
+text-align: left;
+font-size: 15px;
+    
 }
 /* FIN article preguntas-frecuentes */
 /* INICIO article soporte-tickets */
