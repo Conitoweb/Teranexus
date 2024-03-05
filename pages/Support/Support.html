@@ -18,12 +18,11 @@
             <a href="#" class="link-nav">Store</a>
         </nav>
     </header>
-    <!-- Section HERO-SUPPORT -->
+
     <section class="hero-support">
-        <h1>Support</h1>
+        <h1>Soporte</h1>
     </section>
-    <!-- FIN HERO-SUPPORT -->
-    <!-- redes sociales -->
+
     <div class="redes-sociales">
         <ul>
             <li>
@@ -41,7 +40,6 @@
         </ul>
     </div>
 
-<!-- fin redes sociales -->
     <section id="support" class="section-container">
         <div class="conatiner-center-general">
 
@@ -51,45 +49,28 @@
                 <br>
                 <div class="card-container">
                     <div class="card-header">
-                        <h3>¿Cómo puedo registrar mi cuenta?</h3>
                     </div>
-                    <br>
                     <div class="card-body">
-                        <p>Para registrar una cuenta debes usar el comando <span>/register email</span> en uno de
-                            nuestros  <br>servidores de juegos.
-                        </p>
-                        <br>
-                        <p>  Si actualmente está prohibido, puede unirse a nuestra red (hubs) para registrar su cuenta.</p>
                     </div>
-                    <br>
                     <div class="card-list">
                         <ul>
-                            <li> <button  class="pregunta">¿Cómo puedo apelar una sanción?</button>
-                            <li>
-                            <li>
-                                <button class="pregunta">¿Cómo puedo denunciar a un jugador?</button>
-
-                            </li>
-                            <li>
-                                <button class="pregunta">¿Puedo apelar si me banearon por hacer trampa?</button>
-
-                            </li>
-                            <li>
-                                <button class="pregunta">¿Puedo compartir cuentas con mis amigos o usar alternativas públicas?</button>
-
-                            </li>
-                            <li>
-                                <button class="pregunta">¿Por qué no puedo conectarme?</button>
-
-                            </li>
-                            <li>
-                                <button class="pregunta">¿Cuales son las normas?</button>
-
-                            </li>
-                            <li>
-                                <button class="pregunta">¿Están permitidas las VPN?</button>
-
-                            </li>
+                            <li data-pregunta="1"><a href="#">¿Cómo puedo registrar mi cuenta?</a></li>
+                            <div class="card-body respuesta"></div>
+                            <div class="respuesta-container" data-respuesta="1"></div>
+                            <li data-pregunta="2"><a href="#">¿Cómo puedo apelar una sanción?</a></li>
+                            <div class="respuesta-container" data-respuesta="2"></div>
+                            <li data-pregunta="3"><a href="#">¿Cómo puedo denunciar a un jugador?</a></li>
+                            <div class="respuesta-container" data-respuesta="3"></div>
+                            <li data-pregunta="4"><a href="#">¿Puedo apelar si me banearon por hacer trampa?</a></li>
+                            <div class="respuesta-container" data-respuesta="4"></div>
+                            <li data-pregunta="5"><a href="#">¿Puedo compartir cuentas con mis amigos o usar alternativas públicas?</a></li>
+                            <div class="respuesta-container" data-respuesta="5"></div>
+                            <li data-pregunta="6"><a href="#">¿Por qué no puedo conectarme?</a></li>
+                            <div class="respuesta-container" data-respuesta="6"></div>
+                            <li data-pregunta="7"><a href="#">¿Cuáles son las normas?</a></li>
+                            <div class="respuesta-container" data-respuesta="7"></div>
+                            <li data-pregunta="8"><a href="#">¿Están permitidas las VPN?</a></li>
+                            <div class="respuesta-container" data-respuesta="8"></div>
                         </ul>
                     </div>
                 </div>
@@ -110,13 +91,15 @@
                         tickets de soporte puede resultar en una lista negra en el juego y en el sitio web.</p>
 
                 </div>
+                <div class="soporte__discord">
+                    <a href="">crear</a>
+                </div>
             </article>
-
 
         </div>
     </section>
 
-    <!-- footer -->
+    <div id="respuesta-container" class="respuesta-container"></div>
 
     <footer>
         <div class="footer-content">
@@ -148,7 +131,7 @@
             <p class="credits">© Credits to MacksFeirt founded Teranexus on 2023</p>
         </div>
     </footer>
-
+    <script src="support.js"></script>
 </body>
 
 </html>

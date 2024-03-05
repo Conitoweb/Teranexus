@@ -34,17 +34,16 @@ body{
 }
 .header .nav .link-nav{
     color: #888;
-    font-size: 1.25rem;
+    font-size: 1.25rem;text-transform: uppercase;
+    font-weight: bold;
     text-decoration: none;
     padding:  0.625rem 0.938rem;
-    transition: background-color 0.5s ease;
     margin-bottom: 2rem;
 } 
 
 /* HOVER LINK */
-.link-nav:hover{
-    background-color: #222;
-    border-radius: 1rem;
+.header .nav .link-nav:hover{
+    color: #198754;
 }
 /* FIN HEADER - ENCABEZADO */
 
@@ -65,7 +64,9 @@ align-items: center;
 }
 .hero-support h1{
    color: #ddd;
-   font-size: 5rem;
+   font-size: 4rem;
+   font-weight: bold;
+   text-transform: uppercase;
 }
 /* INICIO SECTION PREGUNTAS FRECUENTES - SUPPORT TICKET */
 .section-container{
@@ -83,7 +84,7 @@ align-items: center;
 width: 50%;
 height: 650px;
 color: #ffffff;
-background-color: rgba(0, 0, 0, 0);
+background-color: rgba(0, 0, 0, .03);
 }
 .h2{
     display: inline-block;
@@ -105,16 +106,16 @@ background-color: rgba(0, 0, 0, 0);
 .card-list ul li{
  margin-top: 0.8rem;
  list-style: none;
- background-color: transparent;
 }
-.pregunta{
-  color:white;
-background-color: transparent;
-border: none;
-text-align: left;
-font-size: 15px;
-    
+.card-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 10px;
 }
+/* .show{
+    display: none;
+} */
+
 /* FIN article preguntas-frecuentes */
 /* INICIO article soporte-tickets */
 .soporte-tickets{
@@ -133,6 +134,32 @@ color: #ffffff;
 .container-tickets p{
  color:#767d88;
  
+} 
+.soporte__discord{
+    width: 100%;
+    height: 10vh;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soporte__discord a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: rgba(127, 255, 212, 0.636);
+    width: 80%;
+   height: 3rem;
+   transition: background-color 0.3s ease;
+}
+.soporte__discord a:hover{
+
+    background-color: rgba(127, 255, 212, 0.427);
 }
 /* FIN article soporte-tickets */
 /* FIN SECTION PREGUNTAS FRECUENTES - SUPPORT TICKET */
@@ -240,6 +267,10 @@ footer {
 .credits:before {
     content: "";
     display: block;
-    /* border-top: 2px solid #333; */
     margin-top: 1.25rem;
+}
+.respuesta-container p{
+    color:#767d88 ;
+} .respuesta-container span{
+    color: rgb(127, 255, 212);
 }

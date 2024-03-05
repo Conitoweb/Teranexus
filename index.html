@@ -15,57 +15,33 @@
 </head>
 
 <body>
-    <header>
-        <!--nav-->
-        <nav class="navbar-expand-lg bg-dark navbar  border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid ">
+    <header class="header">
+     <nav class="navbar">
+         <div class="logo-container">
+             <a href="https://www.teranexus.com">
+                 <img src="logo/logo.png" alt="Teranexus logo">
+             </a>
+             <!-- <div class="additional-logo">
+                 <img src="logo/logo1.png" alt="logo akylia">
+             </div> -->
+         </div>
+         <div class="container__link">
+             <a  href="#" class="link-nav inicio">Inicio</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Inicio
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#novedades">Novedades</a></li>
-                            <li><a class="dropdown-item" href="#descripcionWeb">Sobre nosotros</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Contacto</a></li>
-                        </ul>
-                    </li>
-
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Developers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/Staff/staff.html">Staff</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/Support/Support.html">Soporte</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="./pages/SingIn/sing-in.html">inicio-sesión//registro</a>
-                        </li>
-                    </ul>
-
+             <a href="pages/Staff/staff.html" class="link-nav">staff</a>
+             <a href="pages/Support/Support.html" class="link-nav">soporte</a>
             </div>
-
-            <div class="logo-container">
-                <a href="https://www.teranexus.com">
-                    <img src="logo/logo.png" alt="Teranexus logo">
-                </a>
+            <div class="container__login">
                 <div class="additional-logo">
                     <img src="logo/logo1.png" alt="logo akylia">
                 </div>
-            </div>
+                <div class="akylia__login">
+                    <p>Akylia legends</p>
+                    <a href="pages/SingIn/sing-in.html" class="login">Login</a>
+                </div>
+          
+              </div>
+     
 
 
         </nav>
@@ -109,54 +85,46 @@
         </section>
 
         <section id="about-us">
-            <h2>About Us</h2>
-            <p>Somos una comunidad de minecraft dedicada a ofrecer a todos los jugadores una experiencia inmersiva y
-                profunda en el juego. Le ponemos mucho cariño y esfuerzo a cada uno de nuestros servidores y cada uno es
-                totalmente distinto del anterior. Destacamos por estar desarrollando un método innovador que nos
-                permitirá brindar a todo el mundo acceso instantáneo a servidores "moddeados", sin descargar ni instalar
-                NADA </p>
-            <p>Gracias a eso, todo el mundo podrá disfrutar de nuestros servidores, tengas el ordenador que tengas</p>
+            <div class="text__about">
+
+                <h2>sobre teranexus</h2>
+                <p>Somos una comunidad de <span class="minecarft">minecraft</span> dedicada a ofrecer a todos los jugadores una experiencia inmersiva y
+                    profunda en el juego. Le ponemos mucho cariño y esfuerzo a cada uno de nuestros servidores y cada uno es
+                    totalmente distinto del anterior. Destacamos por estar desarrollando un método innovador que nos
+                    permitirá brindar a todo el mundo acceso instantáneo a servidores <span class="moddeados">"moddeados"</span>. sin descargar ni instalar
+                    NADA </p>
+                    <p>Gracias a eso, todo el mundo podrá disfrutar de nuestros servidores, tengas el ordenador que tengas</p>
+                </div>
         </section>
     </main>
     <!--Footer-->
-    <footer>
+    <footer class="custom-footer">
         <div class="footer-content">
             <div class="footer-logo">
-                <a href="https://www.teranexus.com">
+                <a  href="./index.html">
                     <img src="logo/logo.png" alt="Teranexus Community Logo">
                 </a>
             </div>
-
-            <div class="footer-section">
-
-                <div class="social-links">
-                    <a href="https://www.instagram.com/teranexus/" target="_blank" rel="noopener noreferrer">
-                        <img src="img/instagram.svg" alt="Instagram" class="app-logo">
-                    </a>
-                    <a href="https://www.youtube.com/user/teranexus" target="_blank" rel="noopener noreferrer">
-                        <img src="img/youtube.svg" alt="Youtube" class="app-logo">
-                    </a>
-                    <a href="https://discord.gg/teranexus" target="_blank" rel="noopener noreferrer">
-                        <img src="img/discord.svg" alt="Discord" class="app-logo">
-                    </a>
-                    <a href="https://www.tiktok.com/@teranexus" target="_blank" rel="noopener noreferrer">
-                        <img src="img/tiktok.svg" alt="Tiktok" class="app-logo">
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="footer-bottom">
             <div class="footer-links">
-                <a href="./pages/Staff/staff.html">STAFF</a>
-                <a href="./pages/Support/Support.html">SUPPORT</a>
-                <a href="#store">STORE</a>
+                <a href="../../index.html">HOME</a>
+                <a href="../../pages/Support/Support.html">SUPPORT</a>
+                <a href="/store">STORE</a>
             </div>
-        </div>
-
-
-        <div class="separator-line">
+            <div class="social-links">
+                <a href="https://www.instagram.com/teranexus/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/instagram.svg" alt="Instagram" class="app-logo">
+                </a>
+                <a href="https://www.youtube.com/user/teranexus" target="_blank" rel="noopener noreferrer">
+                    <img src="img/youtube.svg" alt="Youtube" class="app-logo">
+                </a>
+                <a href="https://discord.gg/teranexus" target="_blank" rel="noopener noreferrer">
+                    <img src="img/discord.svg" alt="Discord" class="app-logo">
+                </a>
+                <a href="https://www.tiktok.com/@teranexus" target="_blank" rel="noopener noreferrer">
+                    <img src="img/tiktok.svg" alt="Tiktok" class="app-logo">
+                </a>
+            </div>
+       
             <p class="credits">© Credits to MacksFeirt founded Teranexus on 2023</p>
         </div>
     </footer>
