@@ -9,7 +9,17 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
+    background: #252020de ;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.74),
+        rgba(0, 0, 0, 0.865)
+    ),
+    url(background/hero_about.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80%;
     color: #ddd;
     margin: 0;
     overflow-x: hidden;
@@ -26,7 +36,7 @@ body {
 
 /* fin menu */
 .header{
-    background-color: #111;
+   /* background-color: #111; */
     height: 100px;
 }
 
@@ -65,7 +75,7 @@ body {
     transition: 0.3s;
 } 
 .container__login .register{
-    background: #ff3bbeaf;
+    /* background: #ff3bbeaf; */
     color: #1b74cd;
     text-decoration: none;
     padding: 10px 15px;
@@ -135,16 +145,16 @@ section#descripcionWeb{
     width: 100%;
     margin: 0;
     /* padding: 20px; */
-    background-image:linear-gradient(
+    /* background-image:linear-gradient(
         0deg,
         rgb(0,0,0,0.5),
         rgb(0,0,0,0.5)
     ) 
-    ,url('background/background-description.jpeg');
-    background-attachment: fixed;
+    ,url('background/background-description.jpeg'); */
+    /* background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,13 +237,7 @@ section#descripcionWeb p {
     opacity: 1;
 }
 
-section{
-    background-color: #111;
-    /* margin-bottom: 2rem; */
-    /* padding: 30px; */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-}
+
 
 h2 {
     color: #ddd;
@@ -264,11 +268,13 @@ section#novedades h2 {
 }
 
 #novedades #latest-news {
-    background-color: #14161B;
-    border: 2px solid #14161B;
+    /* background-color: #14161B; */
+    border: 2px solid #ffffff93;
     padding: 30px;
     border-radius: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(116, 116, 116);
+    background: transparent;
+    backdrop-filter: blur(3px);
     margin-top: 2rem;
     max-width: 800px;
     margin-left: auto;
@@ -348,16 +354,18 @@ section#novedades h2 {
     margin-bottom: 0;
 }
 #about-us{
-    background: #252020de ;
+    /* background: #252020de ;
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.817),
         rgba(0, 0, 0, 0.819)
     ),
-    url(background/hero_about.avif);
-    background-position: center;
-    background-size: cover;
+    url(background/hero_about.avif); */
+    /* background-position: center;
+    background-size: cover; */
     /* background-attachment: fixed; */
+    background: transparent;
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
 text-align: center;
@@ -369,7 +377,7 @@ height: 100vh;
 }
 .text__about{
    
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 6rem auto;
 }
@@ -392,7 +400,7 @@ height: 100vh;
     'Static' ;
     font-family: monospace;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #cdcdcd;
     text-align: justify;
     /* text-shadow: -1px -1px 1px #ff0000;  */
